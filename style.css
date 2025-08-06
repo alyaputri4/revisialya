@@ -1,0 +1,36 @@
+/* style.css */
+
+/* Mengatur gaya untuk body */
+body {
+    font-family: Arial, sans-serif; /* Mengatur jenis font */
+    color: white; /* Mengatur warna teks */
+}
+
+/* Mengatur gaya untuk jumbotron */
+.jumbotron {
+    background-color: (white); /* Latar belakang semi-transparan */
+    padding: 2rem; /* Menambahkan padding */
+    border-radius: 10px; /* Mengatur sudut melengkung */
+}
+
+/* Mengatur gaya untuk gambar profil */
+.profile-image {
+    width: 150px; /* Lebar gambar */
+    height: 150px; /* Tinggi gambar */
+    object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+    border-radius: 50%; /* Membuat gambar menjadi bulat */
+    border: 3px solid white; /* Mengatur border gambar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Menambahkan bayangan */
+}
+
+/* Mengatur gaya untuk judul */
+h1 {
+    font-size: 2.5rem; /* Ukuran font untuk judul */
+    margin-bottom: 1rem; /* Jarak bawah judul */
+}
+
+/* Mengatur gaya untuk paragraf */
+p.lead {
+    font-size: 1.2rem; /* Ukuran font untuk paragraf */
+    margin: 0.5rem 0; /* Jarak atas dan bawah paragraf */
+}
